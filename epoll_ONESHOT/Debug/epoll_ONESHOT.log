@@ -1,0 +1,5 @@
+﻿  VisualGDB: Sending 1 updated source file to build machine...
+EXEC : warning VGDB2001: Could not send /tmp/VisualGDB/f/MyLearnCode/epoll_LT_ET/epoll_ONESHOT/epoll_ONESHOT.cpp: LIBSSH2_ERROR_SCP_PROTOCOL while trying to upload /tmp/VisualGDB/f/MyLearnCode/epoll_LT_ET/epoll_ONESHOT/epoll_ONESHOT.cpp
+VisualGDB : error : Source file transfer failed. If you want to build your project nonetheless, edit project properties to ignore transfer errors.
+EXEC : error : Build has failed. See the Output window for more details.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: 命令“"C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /build "F:\MyLearnCode\epoll_LT_ET\epoll_ONESHOT\epoll_ONESHOT.vcxproj" "/solution:F:\MyLearnCode\epoll_LT_ET\epoll_LT_ET.sln" "/config:Debug" "/platform:Win32"”已退出，代码为 1。

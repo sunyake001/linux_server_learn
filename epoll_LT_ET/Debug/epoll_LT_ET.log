@@ -1,0 +1,4 @@
+﻿  VisualGDB: Sending 2 updated source files to build machine...
+  VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/f/MyLearnCode/epoll_LT_ET/epoll_LT_ET" on root@192.168.10.122 (SSH)
+  g++ -std=gnu++14 -ggdb -ffunction-sections -O0 -gdwarf-2   -DDEBUG=1  -c epoll_LT_ET.cpp -o Debug/epoll_LT_ET.o -MD -MF Debug/epoll_LT_ET.dep
+  g++ -o Debug/epoll_LT_ET -Wl,-gc-sections    -Wl,--start-group Debug/epoll_LT_ET.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group

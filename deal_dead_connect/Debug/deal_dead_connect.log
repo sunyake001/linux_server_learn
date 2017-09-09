@@ -1,0 +1,19 @@
+﻿  VisualGDB: Sending 2 updated source files to build machine...
+  VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/f/MyLearnCode/epoll_LT_ET/deal_dead_connect" on root@192.168.10.122 (SSH)
+  g++ -std=gnu++14 -ggdb -ffunction-sections -O0  -gdwarf-2   -DDEBUG=1  -c deal_dead_connect.cpp -o Debug/deal_dead_connect.o -MD -MF Debug/deal_dead_connect.dep
+  In file included from deal_dead_connect.cpp:15:0:
+F:\MyLearnCode\epoll_LT_ET\deal_dead_connect\tw_timer.h(11,8): error : redefinition of ‘struct client_data’
+   struct client_data
+          ^
+  In file included from deal_dead_connect.cpp:14:0:
+F:\MyLearnCode\epoll_LT_ET\deal_dead_connect\lst_timer.h(10,8): error : previous definition of ‘struct client_data’
+   struct client_data
+          ^
+  make: *** [Debug/deal_dead_connect.o] Error 1
+  -------------------------------------------------------------
+  Command exited with code 2
+  Executable: make
+  Arguments: CONFIG=Debug
+  Directory: /tmp/VisualGDB/f/MyLearnCode/epoll_LT_ET/deal_dead_connect
+VisualGDB : error : Command-line action failed
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: 命令“"C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /build "F:\MyLearnCode\epoll_LT_ET\deal_dead_connect\deal_dead_connect.vcxproj" "/solution:F:\MyLearnCode\epoll_LT_ET\epoll_LT_ET.sln" "/config:Debug" "/platform:Win32"”已退出，代码为 1。
